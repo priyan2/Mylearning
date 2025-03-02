@@ -1,0 +1,60 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.container{
+    width: 50%;
+    height: auto;
+    margin-top: 10%;
+    margin:10%;
+    margin-left: 25%;
+    padding: 20px;
+    border-radius: 10px;
+    border: 1px solid black;
+}
+
+h2{
+    text-align: center;
+}
+
+label{
+    width: 100%;
+    display: block;
+    padding-bottom: 10px;
+    font-size: 20px;
+}
+
+input{
+    width: 100%;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.form-div{
+    padding: 10px;
+    margin-bottom: 5px;  
+}
+
+.form-cls{
+    padding: 15px;
+}
+
+.form-cls button{
+    width: 100%;
+    padding: 10px;
+    border-radius: 10px;
+    margin: 10px;
+    background-color: blue;
+    color: whitesmoke;
+    font-size: 20px;
+    
+}
+
+.form-cls a{
+    padding-top: 10px;
+    padding-right: 10px;
+    margin: 15px;
+    font-size: 20px;
+}
+
