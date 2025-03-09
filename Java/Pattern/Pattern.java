@@ -42,13 +42,11 @@ public class Pattern {
 //        pramidStarReverse();
 //            rotatedTriangle(); pramidStar();
 
-        Scanner input = new Scanner(System.in);
-        int n = input.nextInt();
-        int number = n * 10;
-        while( n <= number){
-            System.out.print(number+ " ");
-            number = number - n;
-        }
+        //zeroOne();
+        // numbersPrint();
+        //lettersPrint();
+        //lettersPrintReverse();
+        //lettersPrintSame();
 
 
     }
@@ -67,6 +65,7 @@ public class Pattern {
 //            System.out.println();
 //        }
 //    }
+
 //    static void pramidStarReverse() {
 //        for (int i = 5; i >= 1; i--) {
 //            for (int j = 1; j <= 5 - i; j++) {
@@ -92,5 +91,58 @@ public class Pattern {
 //                    System.out.println();
 //                }
 //            }
+
+//    static void zeroOne(){
+//        int start = 1;
+//        for(int i=0; i<5; i++){
+//            if( (i % 2) == 0) start = 0;
+//            else start = 1;
+//            for(int j=0; j<=i; j++){
+//                System.out.print(start+ " ");
+//                start = 1 - start;
+//            }
+//            System.out.println();
+//        }
+//    }
+
+//    static void numbersPrint(){
+//        int num = 1;
+//        for(int i=1; i<= 5; i++){
+//            for(int j=1; j<=i ; j++){
+//                System.out.print(num+ " ");
+//                num++;
+//            }
+//            System.out.println();
+//        }
+//    }
+
+//    static void lettersPrint(){
+//        for(int i=1; i<= 5; i++){
+//            for(char j='A'; j < 'A'+i ; j++){
+//                System.out.print(j +" ");
+//            }
+//            System.out.println();
+//        }
+//    }
+    //
+//            static void lettersPrintReverse(){
+//                for(int i=1; i<= 5; i++){
+//                    for(char j='A'; j <= 'A'+(5-i); j++){
+//                        System.out.print(j +" ");
+//                    }
+//                    System.out.println();
+//                }
+//            }
+
+//            static void lettersPrintSame(){
+//                for(int i=1; i<= 5; i++){
+//                    char ch = (char) ('A' + i-1);
+//                    for(int j=1; j<=i; j++){
+//                        System.out.print(ch +" ");
+//                    }
+//                    System.out.println();
+//                }
+//            }
+//
 }
 
