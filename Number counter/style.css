@@ -1,0 +1,67 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+html{
+    height: 100%;
+}
+
+body{
+    background-color: rgb(255, 132, 100);
+    height: 100%;
+}
+
+.container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+}
+
+.card-body{
+    background-color: #fff;
+    padding: 25px;
+    border-radius: 10px;
+    text-align: center;
+}
+
+.card-body h1{
+    margin-bottom: 15px;
+    font-size: 70px;
+}
+
+.card-btn button{
+    background-color: #fff;
+    color: black;
+    border-radius: 7px;
+    padding:15px;
+    font-size:25px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: 0.5s;
+}
+
+button#decrement{
+    background-color: #f6e58d;
+}
+button#decrement:hover{
+    background-color: #f79f1f;
+    color:#fff;
+}
+
+button#reset{
+    background-color: #f3a683;
+}
+button#reset:hover{
+    background-color: #ea2027;
+    color:#fff;
+}
+
+button#increment{
+    background-color: #f6e58d;
+}
+button#increment:hover{
+    background-color: #009432;
+    color:#fff;
+}
